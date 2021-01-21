@@ -18,3 +18,32 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.elements-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.toast:not(.showing):not(.show) {
+  opacity: 1;
+}
+
+.toast-header {
+  justify-content: flex-end;
+}
